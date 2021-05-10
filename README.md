@@ -32,7 +32,7 @@ United States Deaths
     <ol>
         <li> create_CDC_tables.sql: This creates all the internal tables used to contain 
              the data created by the database package.  It also provides the external table
-             definition that provides direct query access to the data.</li>
+             definition that provides direct query access to the data coming from CDC Wonder.</li>
         <li> cdc_pak.sql: This generates a database package that contains all the
              code needed to process the data and load it into the database.</li>
     </ol>
