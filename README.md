@@ -20,7 +20,7 @@ United States Deaths
 
 <p> The processing steps for the Census Bureau data is documented separately in the covid19_review repo.
     Please reference the python file labeled "generateCensusRegions.py".  Additionally, all CDC files
-    were transformed using Excel; that process is not part of this repo</p>
+    were transformed using Excel; that process is not part of this repo.</p>
 
 <p> These files are subsequently loaded into an Oracle database for analysis.</p>
 
