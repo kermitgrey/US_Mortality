@@ -27,7 +27,7 @@ United States Deaths
 <h4> Oracle Database </h4>    
     
 <p> The following files contain all the code necessary to create the schema objects that support the
-    analysis as well as the code to process the data. </p>
+    analysis as well as the code to process the data: </p>
     <ul>
     <ol>
         <li> create_CDC_tables.sql: This creates all the internal tables used to contain 
