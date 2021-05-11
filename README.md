@@ -14,12 +14,12 @@ United States Deaths
          (state-geocodes-v2019.xlsx)</li>
     </ul>
 
-<p> NOTE: This repo does not replicate the files extracted from CDC Wonder.  Please visit 
+<p> NOTE: This repo does not replicate the report files from CDC Wonder.  Please visit 
     https://wonder.cdc.gov/ for access to the actual data.
 </p>
 
 <p> All CDC files were transformed using Excel to make them ready for analysis; that process is not part of this repo.  
-   Additionally, the Census Bureau data processing is documented separately in the covid19_review repo.  Please reference 
+   Additionally, the Census Bureau file processing is documented separately in the covid19_review repo.  Please reference 
    the python file labeled "generateCensusRegions.py".
 </p>
 
