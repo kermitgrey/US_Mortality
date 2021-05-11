@@ -4,8 +4,8 @@ United States Deaths
 
 <p> The Centers for Disease Control and Prevention (CDC) provides the Multiple Causes of Death data set containing mortality and population counts for all U.S. counties. That data set, encompassing years 1999-2019, is made available to the public via the CDC Wonder information platform, an integrated information and communication system for public health.</p>
 
-<p>The data from CDC Wonder will be used to perform an analysis of the data.  It will also make use of a Census Bureau file containing geo code
-   information:
+<p>The data from CDC Wonder will be used to perform an analysis of the data.  That analysis will also make use of a Census Bureau file
+   containing geo code information:  
 </p>
     <ul>
     <li> CDC annual mortality statistics encompassing all causes of deaths, 
@@ -18,16 +18,17 @@ United States Deaths
     https://wonder.cdc.gov/ for access to the actual data.
 </p>
 
-<p> The processing steps for the Census Bureau data is documented separately in the covid19_review repo.
-    Please reference the python file labeled "generateCensusRegions.py".  Additionally, all CDC files
-    were transformed using Excel; that process is not part of this repo.</p>
+<p> All CDC files were transformed using Excel to make them ready for analysis; that process is not part of this repo.  
+   Additionally, the Census Bureau data processing is documented separately in the covid19_review repo.  Please reference 
+   the python file labeled "generateCensusRegions.py".
+</p>
 
-<p> These files are subsequently loaded into an Oracle database for analysis.</p>
+<p> Both files are subsequently loaded into an Oracle database for analysis.</p>
 
 <h4> Oracle Database </h4>    
     
 <p> The following files contain all the code necessary to create the schema objects that support the
-    analysis as well as the code to process the data: </p>
+    analysis as well as the code to load the data: </p>
     <ul>
     <ol>
         <li> create_CDC_tables.sql: This creates all the internal tables used to contain 
@@ -40,4 +41,5 @@ United States Deaths
 <p> This code makes use of Oracle's external table functionality that enables read-only access to 
     the external data files extracted from CDC Wonder.  Please reference the Oracle Database    
     Administrator's Guide for specifics on needed setup steps prior to using the external table
-    functionality.</p
+    functionality.
+</p
