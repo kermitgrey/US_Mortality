@@ -4,7 +4,7 @@ United States Deaths
 
 <p> The Centers for Disease Control and Prevention (CDC) provides the Multiple Causes of Death data set containing mortality and population counts for all U.S. counties. That data set, encompassing years 1999-2019, is made available to the public via the CDC Wonder information platform, an integrated information and communication system for public health.</p>
 
-<p>The data from CDC Wonder will be used to perform an analysis.  It will also make use of a Census Bureau file containing geo code
+<p>The data from CDC Wonder will be used to perform an analysis of the data.  It will also make use of a Census Bureau file containing geo code
    information:
 </p>
     <ul>
